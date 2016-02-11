@@ -10,4 +10,7 @@ mkdir -p $url
 # download
 echo "Downloading etherpad archive to $url/index.html"
 curl "$1/export/html" --output "$url/index.html"
+
+echo "Adding link to the index"
+echo "<a href='$url'>$url</a><br>" >> index.html
 echo "Done :)"

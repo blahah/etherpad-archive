@@ -7,7 +7,7 @@ Because etherpad isn't meant to be persistent.
 To archive a pad, fork this repo, clone it locally, then run:
 
 ```
-./archive.shd etherpad_url
+./archive.sh etherpad_url
 ```
 
 For example if your pad is at https://public.etherpad-mozilla.org/p/example you would run:
