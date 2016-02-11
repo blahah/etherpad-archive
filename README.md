@@ -14,7 +14,6 @@ For example if your pad is at https://public.etherpad-mozilla.org/p/example you 
 
 ```
 ./archive.sh https://public.etherpad-mozilla.org/p/example
-
 ```
 
 Then you can `git add` everything, `git commit` and `git push` to your fork, and finally make a PR **against the gh-pages branch** back here to get your page added to the archive.
@@ -29,5 +28,6 @@ For the example above, it would be found at
 
 ```
 rik.smith-unna.com/etherpad-archive/public.etherpad-mozilla.org/p/example
-
 ```
+
+It will also be added to the index page at http://rik.smith-unna.com/etherpad-archive
