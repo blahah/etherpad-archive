@@ -17,7 +17,7 @@ For example if your pad is at https://public.etherpad-mozilla.org/p/example you 
 
 ```
 
-Then you can `git add` everything, `git commit` and `git push` to your fork, and finally make a PR back here to get your page added to the archive.
+Then you can `git add` everything, `git commit` and `git push` to your fork, and finally make a PR **against the gh-pages branch** back here to get your page added to the archive.
 
 Your page will be available at
 
